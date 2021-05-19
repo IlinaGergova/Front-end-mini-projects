@@ -44,17 +44,6 @@ a:visited{
     color: #bd002fd3;
 }
 
-#signIn{
-    border:2px solid;
-    border-radius: 15px;
-    padding-left: 20px;
-    margin-top: -2px;
-}
-
-#signIn:hover{
-    border-color: white;
-    background: #3e438046;
-}
 
 
 /*-----dropdown menu-----*/

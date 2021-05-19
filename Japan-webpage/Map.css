@@ -26,6 +26,7 @@ header{
 nav{
     display: flex;
     flex-direction: row-reverse;
+	align-content: flex-end;
     
 }
 #rightNav{
@@ -54,17 +55,6 @@ a:visited{
     color: #bd002fd3;
 }
 
-#signIn{
-    border:2px solid;
-    border-radius: 15px;
-    padding-left: 20px;
-    margin-top: -2px;
-}
-
-#signIn:hover{
-    border-color: white;
-    background: #3e438046;
-}
 
 
 /*-----dropdown menu-----*/
@@ -91,7 +81,7 @@ a:visited{
     height: 85px;
     position: relative;
     display:inline-block;
-    width: 60%;
+    width: 75%;
 }
 
 #dropdown-content {
@@ -162,53 +152,53 @@ a:visited{
 	text-decoration:none;
 }
 .Sapporo{
-	margin-left:50%;
-	margin-top:0px;
+	margin-left:650px;
+	margin-top:170px;
 	position: absolute;
 }
 .Sendai{
-	margin-left:1000px;
-	margin-top:350px;
+	margin-left:850px;
+	margin-top:460px;
 	position: absolute;
 }
 .Tokyo{
-	margin-left:940px;
-	margin-top:650px;
+	margin-left:800px;
+	margin-top:670px;
 	position: absolute;
 }
 .Kyoto{
-	margin-left:500px;
-	margin-top:550px;
+	margin-left:470px;
+	margin-top:600px;
 	position: absolute;
 }
 .Osaka{
-	margin-left:650px;
-	margin-top:780px;
+	margin-left:600px;
+	margin-top:770px;
 	position: absolute;
 }
 .Nagoya{
-	margin-left:730px;
-	margin-top:700px;
+	margin-left:650px;
+	margin-top:710px;
 	position: absolute;
 }
 .Kobe{
-	margin-left:500px;
-	margin-top:800px;
+	margin-left:490px;
+	margin-top:780px;
 	position: absolute;
 }
 .Hiroshima{
-	margin-left:240px;
-	margin-top:590px;
+	margin-left:270px;
+	margin-top:630px;
 	position: absolute;
 }
 .Nagasaki{
-	margin-left:30px;
-	margin-top:785px;
+	margin-left:130px;
+	margin-top:775px;
 	position: absolute;
 }
 .Kagoshima{
-	margin-left:70px;
-	margin-top:890px;
+	margin-left:130px;
+	margin-top:850px;
 	position: absolute;
 }
 a:link{

@@ -47,9 +47,10 @@ h1{
     height:inherit;
 	padding:100px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 	font-weight: normal;
     display: flex;
+    font-size: 23px;
 }
 
 section{
@@ -60,9 +61,13 @@ section{
 }
 
 .lesson{
-    margin-left:30px;
-    
+    margin-left:60px;
+    background-color: rgb(253, 227, 205);
+    border-radius: 15px;
+    border: 1px solid rgb(236, 166, 109);
+    padding:20px;
 }
+
 
 #list li a{
     text-decoration: none;
