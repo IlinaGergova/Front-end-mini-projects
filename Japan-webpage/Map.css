@@ -1,0 +1,297 @@
+body{
+    background-color: rgb(168, 216, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top:0px;
+    display: inline-block;
+}
+
+/*--------- heading---------- */
+h1{
+	font-size:70px;
+	color:white;
+    display: absolute;
+    text-align: center;
+	
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.397);
+    height: 6.5rem;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+#rightNav{
+    position: relative;
+    top:20px;
+    margin-right:20px;
+    padding: 0;
+}
+
+#rightList li{
+    list-style: none;
+    display: inline;
+}
+
+#rightList a{
+    text-decoration: none;
+    color:white;
+    padding-right: 25px;     
+}
+
+a:visited{
+    color:none;
+}
+
+#rightList a:hover{
+    color: #bd002fd3;
+}
+
+#signIn{
+    border:2px solid;
+    border-radius: 15px;
+    padding-left: 20px;
+    margin-top: -2px;
+}
+
+#signIn:hover{
+    border-color: white;
+    background: #3e438046;
+}
+
+
+/*-----dropdown menu-----*/
+
+
+#menu {
+	background:url('photos/sakura.png') ;
+    margin-top:10px;
+    margin-left:5px;
+    z-index: 5;
+    transition: width 1s height 1s;
+    width: 85px;
+    height: 85px;
+}
+
+#menu:hover {
+	transition:0.90s;
+    -ms-transform: rotate(180deg); 
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+}
+
+#dropdown {
+    height: 85px;
+    position: relative;
+    display:inline-block;
+    width: 60%;
+}
+
+#dropdown-content {
+  position: relative;
+  display: none;
+  border-radius:10px;
+  background-color: #f9f9f9;
+  z-index: 3;
+  top: 30px;
+
+}
+
+#dropdown-content a {
+  color: black;
+  font-size: 15px;
+  text-align:left;
+  padding: 10px 40px;
+  text-decoration: none;
+  display: block;
+}
+
+#dropdown-content a:hover {
+  background-color: #bd002fd3;
+  color:white;
+}
+
+#dropdown-content a:hover:first-child{
+    border-radius:10px 10px 0px 0px;
+}
+#dropdown-content a:hover:last-child{
+    border-radius:0px 0px 10px 10px;
+}
+
+#dropdown:hover #dropdown-content {
+  display: block;
+  position: absolute;
+}
+/*-----Map-----*/
+
+.map{
+	margin-top:100px;
+	z-index: -1;
+	position: static;
+}
+
+.map path{
+	fill:#3e4480;
+	stroke:  #b3ecff;
+	stroke-width: 1px;
+	transition: fill 0.3s;
+}
+
+.map path:hover{
+	fill:#d9b3ff;
+}
+
+#lines{
+	stroke:  #bd002fd3;
+	stroke-width: 1.5px;
+}
+
+/*-----Cities-----*/
+
+#cities{
+	font-family:"Bahnschrift SemiBold";
+	font-size:25px;
+	margin-top:-1300px;
+	text-decoration:none;
+}
+.Sapporo{
+	margin-left:50%;
+	margin-top:0px;
+	position: absolute;
+}
+.Sendai{
+	margin-left:1000px;
+	margin-top:350px;
+	position: absolute;
+}
+.Tokyo{
+	margin-left:940px;
+	margin-top:650px;
+	position: absolute;
+}
+.Kyoto{
+	margin-left:500px;
+	margin-top:550px;
+	position: absolute;
+}
+.Osaka{
+	margin-left:650px;
+	margin-top:780px;
+	position: absolute;
+}
+.Nagoya{
+	margin-left:730px;
+	margin-top:700px;
+	position: absolute;
+}
+.Kobe{
+	margin-left:500px;
+	margin-top:800px;
+	position: absolute;
+}
+.Hiroshima{
+	margin-left:240px;
+	margin-top:590px;
+	position: absolute;
+}
+.Nagasaki{
+	margin-left:30px;
+	margin-top:785px;
+	position: absolute;
+}
+.Kagoshima{
+	margin-left:70px;
+	margin-top:890px;
+	position: absolute;
+}
+a:link{
+	text-decoration:none;
+	color:#3e4480;
+}
+a:hover{
+	color:#d9b3ff;
+}
+
+
+/*----regions and islands----*/
+
+#regions-islands{
+	display: block;
+	background-color: white;
+	border-radius: 15px;
+	font-size: 20px;
+	position: absolute;
+	margin: 50px;
+	padding: 20px;
+	columns: 2;
+}
+
+hr{
+	margin:0px;
+	padding:0px;
+	background-color: rgba(112, 128, 144, 0.336);
+}
+
+#regions-islands h3{
+	margin: 5px;
+}
+
+.islands li{
+	height: 20px;
+	display: block;
+	position: relative;
+	padding: 3px;
+	padding-right: 5px;
+	color: slategrey;
+}
+
+.islands h4{
+	display: list-item;
+	margin: 6px;
+}
+
+/* .islands:nth-child(1):hover{
+	color:#d9b3ff;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

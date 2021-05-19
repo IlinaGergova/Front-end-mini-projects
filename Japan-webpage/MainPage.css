@@ -1,0 +1,230 @@
+body{
+    background-color: rgb(255, 196, 169);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin:20%;
+    margin-top:0px;
+    display: inline-block;
+}
+
+/* -----nav menu style-----*/
+header{
+    background-color: rgba(255, 255, 255, 0.397);
+    height: 6.5rem;
+    position: relative;
+   
+}
+
+#rightNav{
+    position: relative;
+    top:20px;
+    margin-right:20px;
+    padding: 0;
+    float:right;
+    display:block;
+}
+
+#rightList li{
+    list-style: none;
+    display: inline;
+}
+
+#rightList a{
+    text-decoration: none;
+    color:white;
+    padding-right: 25px;     
+}
+
+a:visited{
+    color:none;
+}
+
+#rightList a:hover{
+    color: #bd002fd3;
+}
+
+#signIn{
+    border:2px solid;
+    border-radius: 15px;
+    padding-left: 20px;
+    margin-top: -2px;
+}
+
+#signIn:hover{
+    border-color: white;
+    background: #3e438046;
+}
+
+
+/*-----dropdown menu-----*/
+
+
+#menu {
+	background:url('sakura.png') ;
+    margin-top:10px;
+    margin-left:5px;
+    z-index: 5;
+    display: flex;
+    transition: width 1s height 1s;
+    width: 85px;
+    height: 85px;
+}
+
+#menu:hover {
+	transition:0.90s;
+    -ms-transform: rotate(180deg); 
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+}
+
+#dropdown {
+	position:absolute;
+    display:inline-block;
+    height: 85px;  
+}
+
+#dropdown-content {
+  position: absolute;
+  display: none;
+  border-radius:10px;
+  background-color: #f9f9f9;
+  z-index: 3;
+  top: 30px;
+}
+
+#dropdown-content a {
+  color: black;
+  font-size: 15px;
+  text-align:left;
+  padding: 10px 40px;
+  text-decoration: none;
+  display: block;
+}
+
+#dropdown-content a:hover {
+  background-color: #bd002fd3;
+  color:white;
+}
+
+#dropdown-content a:hover:first-child{
+    border-radius:10px 10px 0px 0px;
+}
+#dropdown-content a:hover:last-child{
+    border-radius:0px 0px 10px 10px;
+}
+
+#dropdown:hover #dropdown-content {
+  display: block;
+  position: absolute;
+}
+
+
+/*-----header photo-----*/
+
+
+figure{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+#headerPic{
+    position: absolute;
+    z-index:-5;
+    width: 100%;
+    height: inherit;
+    display: flex;
+}
+
+/*-----Japan-----*/
+
+header h1{
+    text-align: center;
+    mix-blend-mode: screen;
+    margin-top: 15rem;
+    margin-right:5rem;
+    position: absolute;
+    transform: translate(50%);
+    font-size: 60px;
+    background-color: white;
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+/*-----body content-----*/
+
+
+#mainBody{
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    width: inherit;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 30%;
+}
+
+#main-body-heading{
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+    position: relative;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: 40px;
+}
+
+/*-----video section------*/
+
+#video-section {
+    display: flex;
+    padding: 80px;
+}
+
+#video-container{
+   
+    width: 80%;
+    height: inherit;
+    display: flex;
+    position: relative;
+}
+
+#video-text {
+    font-size: 15px;
+    font-weight: normal;
+    display:flex;
+}
+
+#text{
+    display:flex;
+    justify-self: end;
+    padding-left:15px;
+    text-align: center;
+}
+
+/*-----line 1-----*/
+
+#icons{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px [col-start]); /*= 200px 200px 200px*/
+    column-gap: 30px;
+    /*grid-template-rows: repeat(3, 200px [row-start]);;*/
+    justify-items: center;
+    justify-content: center;
+}
+
+#icons img{
+    width: 100px;
+    height: auto;
+    background-color: #3e4380;
+    border-radius: 50%;
+}
+
+#icons img:hover{
+    background-color: #d9b3ff;
+}
+
+#icons figcaption a{
+    text-decoration: none;
+}

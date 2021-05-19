@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(185, 169, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin:20%;
+    margin-top:0px;
+	display: inline-block;
+}
+
+/*--------- heading---------- */
+h1{
+	font-size:100px;
+	color:white;
+	letter-spacing:60px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0;
+	margin-left: inherit;
+}
+
+.icon{
+	height:37px;
+	width:43;
+	margin-left:20px;
+	margin-top:5px;
+}
+
+#mainBody{
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    width: inherit;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 0;
+}
+
+#allLessons{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    grid-template-rows: 230px 230px 230px 230px;
+}
+
+#intro{
+    height:inherit;
+	padding:100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: normal;
+    display: flex;
+}
+
+section{
+	background-color: white;
+    position: relative;
+    display: inline;
+    margin-top: 5%;
+}
+
+.lesson{
+    margin-left:30px;
+    
+}
+
+#list li a{
+    text-decoration: none;
+    color:#3e0080;
+}
+
+#list li a:hover{
+    color:#bd002fd3;
+}

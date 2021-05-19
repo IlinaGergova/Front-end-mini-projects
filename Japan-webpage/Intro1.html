@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lesson 1</title>
+        <link rel="stylesheet" href="Intro1.css">
+        <link rel="stylesheet" href="header.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="Learn.html" class="homePage"><img class="icon" src="photos/homeIcon.png" alt="Home" title="Home" ></a>
+            
+        </div>
+
+        <h1>第1課</h1>
+
+        <main id="mainBody">
+            <div id="ref"><a href="">Kanji & Vocabulary reference</a></div>
+            <h2>文型</h2>
+            <div >
+                <audio controls>
+                    <source src="Audio/1 - 2 - Bunkei.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                </audio>
+            </div>
+            <br>
+            <article>
+                <ol>
+                    <li>わたしは　マイク・ミラーです。</li>
+                    <li>サントスさんは　学生じゃ（では）ありません。</li>
+                    <li>ミラーさんは　会社員ですか。</li>
+                    <li>サントスさんも　会社員です。</li>
+                </ol>
+                <button class="buttons" type="button" id="btn1" onclick="translate1()">Translate</button>
+            </article>
+
+            <article class="translateArea" id="bunkei" style="display: none;">
+                <h2>Sentence Patterns</h2>
+                <ol>
+                    <li>I am Mike Miller.</li>
+                    <li>Mr. Santos is not a student.</li>
+                    <li>Is Mr. Miller a company employee?</li>
+                    <li>Mr. Santos is also a company employee.</li>
+                </ol>
+                <br>
+            </article>
+<hr>
+
+            <h2>例文</h2>
+
+            <div >
+                <audio controls>
+                    <source src="Audio/1 - 3 - Reibun.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                </audio>
+            </div>
+            <br>
+            <article>
+                <ol>
+                    <li>「あなたは」マイク・ミラーさんですか。<br>
+                        …はい、「わたしは」マイク・ミラーです。<br>
+                    </li>
+                    <li>ミラーさんは、学生ですか。
+                        かくせい<br>
+                        ・・・・・・いいえ、[わたしは、学生じゃありません。</li>
+                    <li>ワンさんは銀行員ですか。<br>
+                        ・・・・・・いいえ、[ワンさんは、 銀行員じゃありません。
+                        医者です。</li>
+                    <li>あの方はどなたですか。<br>
+                        ・・・・・・ワットさんです。 さくら大学の先生です。</li>
+                    <li>グプタさんは会社員ですか。
+                        かいしゃいん<br>
+                        ・・・・・・はい、会社員です。</li>
+                    <li>テレーザちゃんは何歳ですか。<br>
+                        ・・・・・・9歳です。</li><br>
+                </ol>
+                <button class="buttons" type="button" id="btn2" onclick="translate2()">Translate</button>
+            </article>
+
+            
+
+            <article class="translateArea" id="reibun" style="display: none;">
+                <h2>Example Sentences</h2>
+                <ol>
+                    <li>
+                        Are you Mr. Mike Miller?<br>
+                        Yes, I am Mike Miller.<br>
+                    </li>
+                    <li>
+                        Are you a student, Mr. Miller?<br>
+                        No, I am not a student.
+                        I am a company employee.<br>
+                    </li>
+                    <li>
+                        Is Mr. Wang an engineer?<br>
+                        No, Mr. Wang is not an engineer.
+                        He is a doctor.<br>
+                    </li>
+                    <li>
+                        Who is that person?<br>
+                        He is Professor Watt. He is a teacher at Sakura University.<br>
+                    </li>
+                    <li>
+                        How old is Teresa?<br>
+                        She is nine years old.<br>
+                    </li>
+                    <br>
+                </ol>
+            </article>
+<hr>
+            <h2>会話</h2>
+            <div >
+                <audio controls>
+                    <source src="Audio/1 - 4 - Kaiwa.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <br>
+            <h3 id="listeningHeader">初めまして</h3>
+            <article><pre>
+佐藤 : おはよう ございます。<br>
+山田 : おはよう ございます。<br>
+        佐藤さん、こちらはマイク・ミラーさんです。<br>
+ミラー : 初めまして。<br>
+        マイク・ミラーです。<br>
+        アメリカから来ました。<br>
+        どうぞよろしく<br>
+
+佐藤 : 佐藤けい子です。<br>
+        どうぞよろしく。
+            </pre>
+            <button class="buttons" type="button" id="btn3" onclick="translate3()">Translate</button>
+        </article>
+
+            <article class="translateArea" id="kaiwa" style="display: none;">
+                <h2>Conversation</h2>
+                <pre>
+Sato:   Good morning.<br>
+Yamada: Good morning.
+        Ms. Sato, this is Mr. Mike Miller.<br>
+Miller: How do you do? I am Mike Miller.
+        I am from the United States of America.
+        Nice to meet you.<br>
+Sato:   I am Sato Keiko.
+        Nice to meet you.<br>                
+                </pre>
+            </article>
+            
+        </main>
+        <script src="Intro1.js"></script>
+    </body>
+
+</html>

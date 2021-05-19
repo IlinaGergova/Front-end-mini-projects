@@ -1,0 +1,141 @@
+/* @media (max-width: 600px) { */
+body{
+    background-color: rgb(255, 196, 169);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top:0px;
+	display: inline-block;
+}
+
+/*--------- heading---------- */
+h1{
+	font-size:100px;
+	color:white;
+	letter-spacing:60px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0;
+	margin-left: inherit;
+}
+
+.icon{
+	height:37px;
+	width:43;
+	margin-left:20px;
+	margin-top:5px;
+}
+
+#mainBody{
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    width: inherit;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 0;
+}
+
+/* ------------intro------- */
+.infoR{
+	height:inherit;
+	width: inherit;
+	padding:70px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: normal;
+	display: flex;
+}
+
+section{
+	background-color: white;
+    position: relative;
+    display: inline;
+    margin-top: 5%;
+}
+
+article{
+	display: flex;
+	height:inherit;
+}
+
+article img{
+    display: flex;
+	position: relative;
+	margin:0;
+	margin-left:100px;
+	margin-top:30px;
+	width:20rem;
+	height: 20rem;
+	background-color:#ccffcc;
+	min-width: inherit;
+	min-height: inherit;
+}
+#pagoda{
+	margin-bottom: 30px;
+}
+ul{
+	list-style: none;
+}
+
+.options{
+	display:flex;
+	padding-left:15px;
+	word-spacing: 10px;	
+	font-size: 30px;
+}
+
+article img:hover{
+	background-color:#3e4380;
+}
+
+hr{
+	color:#d9d9d9;
+}
+
+a{
+	text-decoration:none;
+	color:#3e4380;
+}
+a:hover{
+	color:#3e438063;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
